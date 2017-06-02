@@ -1,7 +1,7 @@
 ﻿/* Forum */
 body {
     background: black !important;
-    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_Style_Sunsie/master/Wallpapers/wall1.jpg') !important;
+    background-image: url("/*[[background]]*/") !important;
     background-attachment: fixed !important;
 	background-repeat: no-repeat !important;
     background-size: cover !important;
