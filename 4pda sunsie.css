@@ -1,7 +1,8 @@
-﻿/* Forum */
+﻿@-moz-document domain("4pda.ru") {
+/* Forum */
 body {
     background: black !important;
-    background-image: url("/*[[background]]*/") !important;
+    background-image: url("https://raw.githubusercontent.com/LEKS2FAST/4PDA_Style_Sunsie/master/Wallpapers/wall1.jpg") !important;
     background-attachment: fixed !important;
 	background-repeat: no-repeat !important;
     background-size: cover !important;
@@ -117,6 +118,7 @@ a:hover {
     border: solid 1px #ff8100 !important;
     color: #fadf87 !important;
     border-radius: 3px !important;
+    text-shadow: none !important;
 }
 .btn:hover {
     background: linear-gradient(to top, #FFBE2A 45%, #DCDCDC 100%) !important;
@@ -147,6 +149,15 @@ a:hover {
     background: #f9ca55 !important;
     border-color: #f9ca55 !important;
     color: #DC002A !important;
+}
+.input-ok-content {
+    padding: 4px;
+    margin: 4px;
+    background: linear-gradient(to top, #DC002A 45%, #DCDCDC 100%) !important;
+    color: #fadf87 !important;
+}
+.input-ok, .input-ok-content {
+    border: solid 1px #ff8100 !important;
 }
 .borderwrap h3, .maintitle, .maintitlecollapse {
     background: none !important;
@@ -511,6 +522,7 @@ td[id^="ph-"] {
 } 
 .post-block.spoil > .block-title {
     color: white !important;
+    text-shadow: none !important;
 }
 .post-block.spoil > .block-body {
     color: #eaf3ff !important;
@@ -540,6 +552,9 @@ td[id^="ph-"] {
 }
 #lbOuterContainer {
     border-radius: 5px 5px 0 0 !important;
+}
+#lbDetailsData.grey {
+    text-shadow: none !important;
 }
 .resized-linked-image {
     border: none !important;
@@ -652,6 +667,7 @@ td.formbuttonrow, .pformstrip, .borderwrap p.formbuttonrow, .borderwrap p.formbu
 }
 .ed-wrap div.ed-bbcode-normal, .ed-wrap div.ed-bbcode-hover, .ed-wrap div.ed-bbcode-down, .ed-wrap .ed-panel-title {
     color: black !important;
+    text-shadow: none !important;
 }
 .ed-wrap .ed-bbcode-hover {
     background-color: #dc002a !important;
@@ -687,6 +703,7 @@ td[style="border:solid 1px white;"] {
     border: 1px solid #dc002a !important;
     color: #f9ca55 !important;
     border-radius: 2px !important;
+    text-shadow: none !important;
 }
 .attach-menu-row-over {
     background-color: #f9ca55 !important;
@@ -767,17 +784,19 @@ body > div > div > div > div > div > form > ul > li {
     background: #dc002a !important;
     padding: 4px !important;
     border-radius: 3px !important;
+    text-shadow: none !important;
 }
 .slider-content .meta-box a:not(.active):not(:hover) {
     border-radius: 3px !important;
 }
 .slider-content .meta-box a:hover, .slider-content .meta-box a.active {
     color: #ffffff !important;
-    background: rgba(0,0,0,0.2) !important;
+    background: #D3374C !important;
     border-radius: 3px !important;
 }
 .slider-content .meta-box a {
     background: #dc002a !important;
+    text-shadow: none !important;
 }
 .slider-content:after {
     background: #f9ca55 !important;
@@ -863,6 +882,7 @@ a.list-group-item.text-overflow.active {
 .thread-list .date {
     border-top: 0px dotted #868686 !important;
     color: black !important;
+    text-shadow: none !important;
 }
 .thread-list .date .text {
     top: -4.5px !important;
@@ -888,6 +908,7 @@ a.list-group-item.text-overflow.active {
 	background-color: rgba(0,0,0,0.6) !important;
 	border: 2px solid #f9ca55 !important;
     border-radius: 5px !important;
+    text-shadow: none !important;
 }
 .dropdown-menu > li > a:hover,.dropdown-menu > li > a:focus {
 	background-color: #f9ca55 !important;
@@ -1084,6 +1105,9 @@ body > div.wr-t > div > div {
 .post .list-post-title a, .post h2 a {
     text-shadow: 2px 2px 1px black !important;
 }
+[class^="GalB"], [class*=" GalB"], .GalS {
+    background: rgba(204, 204, 204, 0.29) !important;
+}
 
 /* DevDB */
 .device-frame {
@@ -1098,7 +1122,7 @@ body > div.wr-t > div > div {
     border-bottom: none !important;
 }
 .device-frame .comment-form .radio input[type="radio"] + span {
-    background: rgba(0,0,0,0) !important;
+    background: rgba(0, 0, 0, 0.7) !important
 }
 .device-frame .filter-form {
     background: rgba(0, 0, 0, 0.35) !important;
@@ -1147,10 +1171,13 @@ div.content div.specifications-list dl.specifications-row.noborder {
     background: #dc002a !important;
     border-radius: 3px !important;
 }
+.small-desc, .device-frame .sort-form-line > li .control-label {
+    color: #babdbe !important;
+}
 
 /* Auth */
 .page {
-    background: rgba(0, 0, 0, 0.5) !important;
+    background: rgba(0, 0, 0, 0.6) !important;
     border-radius: 5px !important;
 }
 #h-wrapper {
@@ -1530,4 +1557,5 @@ img[alt="Увеличить форму ответа"] {
     height: 22px !important;
     padding-right: 20px !important;
     width: 0 !important;
+}
 }
